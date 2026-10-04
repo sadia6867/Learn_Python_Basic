@@ -10,7 +10,7 @@
 
 # practice4
 
-def convert_usd(usd, rate=100):
-    return usd * rate
+def convert_usd(amount, rate=84.80):
+    return amount * rate
 
-print("Amount in USD:", convert_usd(11))
+print(convert_usd(100))
